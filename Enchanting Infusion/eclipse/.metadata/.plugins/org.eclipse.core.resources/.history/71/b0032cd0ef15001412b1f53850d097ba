@@ -1,0 +1,22 @@
+package com.limitlessPotential.enchantingInfusion;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.Instance;
+
+@Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
+
+public class EnchantingInfusion {
+
+	//Instance Of Forge
+	@Instance(value = "EnchantingInfusionModID")
+	public static EnchantingInfusion instance;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
