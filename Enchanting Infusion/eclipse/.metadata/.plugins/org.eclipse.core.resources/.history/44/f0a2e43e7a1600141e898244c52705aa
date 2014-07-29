@@ -1,0 +1,19 @@
+package com.limitlessPotential.enchantingInfusion.enchantments;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnumEnchantmentType;
+
+public class EnchantmentSpeed extends Enchantment{
+
+	public EnchantmentSpeed(int id, int rarity) {
+		super(id, rarity, EnumEnchantmentType.armor_feet);
+		this.setName("Speed");
+	}
+	
+	public int getMinEnchantability(int par1) {
+		return 5 + (par1 - 1) * 10;
+	}
+	
+	
+
+}

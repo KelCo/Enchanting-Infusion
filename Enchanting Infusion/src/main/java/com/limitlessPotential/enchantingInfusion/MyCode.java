@@ -1,5 +1,17 @@
 package com.limitlessPotential.enchantingInfusion;
 
+import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+import com.limitlessPotential.enchantingInfusion.enchantments.EnchantmentJump;
+import com.limitlessPotential.enchantingInfusion.enchantments.EnchantmentSpeed;
+
 public class MyCode {
 
 	
@@ -27,6 +39,10 @@ public class MyCode {
 	
 	//Enum Tool Material End
 	
+	//Enchantment Variable Start
+	public static final Enchantment speed = new EnchantmentSpeed(80, 2);
+	public static final Enchantment jump = new EnchantmentJump(81, 2);
+	//Enchantment Variable End
 	
 	public static void MyBlocks() {
 		
@@ -93,7 +109,15 @@ public class MyCode {
 		//Seed Registry End
 	}
 	
-	
+	public static void MyEnchantments() {
+		
+		
+		
+		
+		
+		
+		
+	}
 	
 	
 	

@@ -1,0 +1,14 @@
+package com.limitlessPotential.enchantingInfusion.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class Example extends Block {
+
+	protected Example(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		setCreativeTab(CreativeTabs.tabBlock);
+	}
+
+}

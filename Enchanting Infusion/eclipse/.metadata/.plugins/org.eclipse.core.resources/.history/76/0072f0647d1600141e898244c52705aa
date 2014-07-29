@@ -1,0 +1,11 @@
+package com.limitlessPotential.enchantingInfusion;
+
+import net.minecraft.client.Minecraft;
+
+public class ServerTickHandler {
+
+	private Minecraft mc;
+	
+	
+	
+}

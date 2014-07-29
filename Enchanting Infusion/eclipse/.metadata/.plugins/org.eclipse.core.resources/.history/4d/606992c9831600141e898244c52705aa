@@ -1,0 +1,11 @@
+tile.ExampleBlock.name=Example Block
+
+item.ExampleItem.name=Example Item
+
+item.ExampleFood.name=Example Food
+
+item.ExampleTool.name=Example Tool
+
+enchantment.EampleEnchantment.name=ExampleEnchantment
+
+enchantment.Speed.name=Speed
