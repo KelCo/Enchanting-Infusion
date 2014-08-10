@@ -3,13 +3,17 @@ package com.limitlessPotential.enchantingInfusion;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.PlayerTickEvent;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
 import com.limitlessPotential.enchantingInfusion.ClientProxy;
 import com.limitlessPotential.enchantingInfusion.enchantments.EnchantmentSpeed;
+
 
 public class ServerTickHandler {
 
@@ -18,6 +22,8 @@ public class ServerTickHandler {
 	public ServerTickHandler(Minecraft mc) {
 		this.mc = mc;
 	}
+	
+	
 	
 	@SubscribeEvent
 	public void onPlayerTick(PlayerTickEvent event) {

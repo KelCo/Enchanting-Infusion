@@ -1,0 +1,80 @@
+package com.limitlessPotential.enchantingInfusion.worldGeneration;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+
+public class WorldGenWitchHut {
+
+	private World world;
+	private int i;  //X
+	private int j;  //Y
+	private int k;  //Z
+	
+	public WorldGenWitchHut(World world1, int i1, int j1, int k1) {
+		world = world1;
+		i = i1;
+		j = j1;
+		k = k1;
+		
+		
+		
+	}
+	
+	public void create() {
+		
+		world.setBlock(i + 200, j, k + 456, Blocks.log2, 0, 1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

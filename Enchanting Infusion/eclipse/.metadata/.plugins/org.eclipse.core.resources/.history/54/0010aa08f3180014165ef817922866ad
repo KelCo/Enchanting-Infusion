@@ -1,0 +1,77 @@
+package com.limitlessPotential.enchantingInfusion.worldGeneration;
+
+import net.minecraft.world.World;
+
+public class WorldGenWitchHut {
+
+	private World world;
+	private int i;
+	private int j;
+	private int k;
+	
+	public WorldGenWitchHut(World world1, int i1, int j1, int k1) {
+		world = world1;
+		i = i1;
+		j = j1;
+		k = k1;
+		
+		
+		
+	}
+	
+	public void create() {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

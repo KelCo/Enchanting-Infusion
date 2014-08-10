@@ -57,6 +57,13 @@ public class MyCode {
 	
 	}
 	
+	public static void MyStructures() {
+		
+	}
+	
+	
+	
+	
 	public static void MyBiomes() {
 		
 		//Biome Registration Start

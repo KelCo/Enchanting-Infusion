@@ -34,6 +34,7 @@ public class EnchantingInfusion {
 	MyCode.MyItems();
 	MyCode.MySeeds();
 	MyCode.MyOreGen();
+	MyCode.MyStructures();
 	MyCode.MyBiomes();
 	MyCode.MyEnchantments();
 	MyCode.MyRecipes();
